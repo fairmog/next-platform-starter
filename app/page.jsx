@@ -1,5 +1,20 @@
 import React, { useState } from 'react';
-import { Plus, Edit, Trash2, Copy, Download, Package, BarChart3, Settings, Eye, CheckCircle, Clock, AlertCircle, TrendingUp, DollarSign, ShoppingBag } from 'lucide-react';
+// Using emoji icons instead of lucide-react
+const Plus = () => <span>+</span>;
+const Edit = () => <span>✏️</span>;
+const Trash2 = () => <span>🗑️</span>;
+const Copy = () => <span>📋</span>;
+const Download = () => <span>⬇️</span>;
+const Package = () => <span>📦</span>;
+const BarChart3 = () => <span>📊</span>;
+const Settings = () => <span>⚙️</span>;
+const Eye = () => <span>👁️</span>;
+const CheckCircle = () => <span>✅</span>;
+const Clock = () => <span>⏰</span>;
+const AlertCircle = () => <span>⚠️</span>;
+const TrendingUp = () => <span>📈</span>;
+const DollarSign = () => <span>💰</span>;
+const ShoppingBag = () => <span>🛍️</span>;
 
 export default function BevelientAdminDashboard() {
   const [activeTab, setActiveTab] = useState('dashboard');
